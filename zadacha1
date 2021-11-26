@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main()
+{
+    int t, positive = 0;
+    do
+    {
+        printf("Введіть кільскість елементів: ");
+        scanf("%i", &t);
+    }
+    while ( t < 1 || t > 100);
+    int N[t];
+    for (int i = 0; i < k; i++)
+    {
+        scanf("%i", &N[i]);
+        if ( N[i] > 0)
+        {
+            positive++;
+        }
+    }
+    printf("%i\n", positive);
+    if (positive!=0){
+        for (int i = 0; i < t; i++)
+        {
+            if ( N[i] > 0)
+            {
+                printf("%i ", N[i]);
+            }
+        }
+    }
+    else printf("NO");
+}
