@@ -5,7 +5,7 @@
 int main ()
 {
     string s = get_string("123");
-    for(int i = strlen(s); i > 0; i--)
+    for(int i = strlen(s); i > -1; i--)
     {
         printf("%c", s[i]);
     }
